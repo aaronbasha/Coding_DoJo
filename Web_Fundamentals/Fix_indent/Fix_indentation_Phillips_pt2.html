@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic II</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brendan</td>
+                <td>Stanton</td>
+                <td>brendanrocks@gmail.com</td>
+                <td>FakePassword123</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Here is a list of my favorite things:</h1>
+    <ul>
+        <li>Food</li>
+        <li>Bandwidth</li>
+        <li>Coffee</li>
+        <li>Beach</li>
+    </ul>
+</body>
+
+</html>
+
+<input type="radio" name="font" value="bold" id="bold">
+<label for="bold"><strong>Bold</strong></label>
+<input type="radio" name="font" value="normal" id="normal">
+<label for="normal">Normal</label>
+
+<form action="/process" method="post">
+    <div>
+        <label>Name: </label>
+        <input type="text" name="name" 
+        placeholder="Your name..." >
+    </div>
+    <div>
+        <label>Email: </label>
+        <input type="text" name="email" 
+        placeholder="Your email..." >
+    </div>
+    <div>
+        <input type="checkbox" name="offers" 
+        id="offers" checked >
+        <label for="offers">I would like 
+        to receive email offers!</label>
+    </div>
+    <input type="submit" value="Sign Up!" >
+</form>

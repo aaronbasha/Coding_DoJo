@@ -1,0 +1,79 @@
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-weight: 500;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    /* ADD A SANS SERIF DEFAULT FONT HERE */
+}
+
+body {
+    background-color: wheat;
+    /* CHANGE THE BACKGROUND COLOR TO WHEAT */
+}
+
+p,
+img {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#container {
+    width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color:rgb(179, 183, 184)
+    
+    
+    
+    
+    /* CHANGE THE BACKGROUND COLOR TO WHITE
+    AND ADD A LIGHT GREY BORDER ON THE LEFT AND RIGHT */
+}
+
+#header {
+    padding: 20px;
+    background-color: #79b5f1;
+    color: rgb(255, 255, 255);
+    /* CHANGE THE TEXT COLOR TO WHITE AND
+    THE BACKGROUND COLOR SHOULD BE #79b5f1 */
+}
+
+#nav { 
+    background-color: rgb(179, 183, 184);
+    font-size: large;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: left;
+    
+    /* CHANGE THE BACKGROUND COLOR TO LIGHT GRAY
+    REMOVE THE BULLET POINTS
+    SHOULD YOU CHANGE THE WIDTH?
+    WHAT ABOUT PADDING?
+    DISPLAY THIS CONTAINER'S CHILDREN SIDE BY SIDE */
+}
+
+
+#nav a {
+    text-decoration: none;
+    /* REMOVE THE UNDERLINES
+    ADD SPACE BETWEEN THE LINKS */
+}
+
+main {
+    padding: 20px;
+    font-size: 25px;
+
+}
